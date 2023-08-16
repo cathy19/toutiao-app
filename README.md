@@ -1,24 +1,11 @@
-# toutiao-app
+## Demo
+https://cathy19.github.io/toutiao-app/#/
 
-## Project setup
-```
+## Introduction
+使用 Vue 實作頭條部落格，串接後端 API 所提供資訊。
+
+## Project Description
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
+Node.js v14
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
