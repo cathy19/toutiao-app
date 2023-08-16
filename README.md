@@ -2,7 +2,7 @@
 https://cathy19.github.io/toutiao-app/#/
 
 ## Introduction
-使用 Vue 實作頭條部落格，串接後端 API 所提供資訊。
+使用 Vue2 實作頭條部落格，串接後端 API 所提供資訊。
 
 ## Project Description
 npm install  
