@@ -6,14 +6,14 @@
       :key="index"
       @click="$emit('search', text)"
     >
-      <div slot="title" v-html="highlight(text)"></div>
+      <div slot="title" v-html="highlight(traditionalized(text))"></div>
     </van-cell>
   </div>
 </template>
 
 <script>
 import { getSearchSuggestions } from '@/api/search'
-
+import { traditionalized } from '@/utils/storage'
 import { debounce } from 'lodash'
 
 export default {
